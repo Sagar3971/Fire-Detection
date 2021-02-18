@@ -40,7 +40,7 @@ while True:
             message.add_attachment(image_data, maintype='image', subtype=image_type, filename=image_name)
 
         mail_server = smtplib.SMTP_SSL('smtp.gmail.com')
-        mail_server.login("temp.practicecw2@gmail.com", 'kxdagnwrxquwrzmy')
+        mail_server.login("sender@gmail.com", 'password') //special password 
         mail_server.send_message(message)
         mail_server.quit()
         print('Mail Sent')
