@@ -8,8 +8,8 @@ fire_cascade = cv2.CascadeClassifier('fire_detection.xml')
 mail_content = '''There is Fire Detected in your place '''
 message = EmailMessage()
 
-sender = 'temp.practicecw2@gmail.com'
-receiver = 'np01cp4a180102@islingtoncollege.edu.np'
+sender = 'sender@gmail.com'
+receiver = 'reciver@gmail.com'
 message['From'] = sender
 message['To'] = receiver
 message['Subject'] = 'ALERT ALERT ALERT'
